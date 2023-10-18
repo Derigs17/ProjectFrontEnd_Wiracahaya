@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.containerr p
+{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transform: translate(-20px, 0px);
+}
+
+
+.containerr
+{
+    position: absolute;
+    transform: translate(58px, 450px);
+}
+
+.containerr2 p
+{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transform: translate(-20px, 0px);
+}
+
+.containerr2
+{
+    position: absolute;
+    transform: translate(58px, 780px);
+}
+
+.garis-pendek
+{
+    background-color: #000000;
+    width: 810px;
+    height: 2px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(650px, 0px);
+  
+}
+
+.garis-panjang
+{
+    background-color: #000000;
+    width: 950px;
+    height: 2px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(510px, 0px);
+}
+
+.com
+{
+    height: 80px;
+    width: auto;
+    transform: translate(540px, 0px);
+}
+
+.com2
+{
+    height: 80px;
+    width: auto;
+    transform: translate(680px, 0px);
+}
+
+.com3
+{
+    height: 80px;
+    width: auto;
+    transform: translate(540px, 80px);
+}
+
+#self-comment 
+{
+  width: 500px;
+  transform: translate(120px, 8px);
+  border: 2px solid #000000;
+}
+
+/*bagian deri*/
+.baris-kolom 
+{
+  display: flex;
+}
+
+.kolom-ikon, .kolom-nama, .kolom-tanggal, .kolom-komentar 
+{
+  flex: 1;
+}
+
+.komunitas1 .nama 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transform: translate(350px, 5px);
+}
+
+.komunitas1 .tanggal 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(100px, 7px);
+}
+
+.komunitas1 .komentar 
+{
+  width: max-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(-250px, 55px);
+}
+
+.tombol 
+{
+    display: flex;
+    transform: translate(145px, 0px);
+}
+
+.like, .balas-tombol 
+{
+  flex: 1;
+}
+
+.kotak 
+{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    appearance: none;
+    display: none; 
+}
+
+.kotak:checked + label .like-dalam
+{
+    color: #e7306a;
+}
+  
+label 
+{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.teks 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}  
+
+.balas 
+{
+    border: none;
+}
+
+.balas a
+{
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 2px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efek transisi perubahan warna */
+    color: #000000;
+}
+  
+/* Hover effect */
+.balas :hover 
+{
+    color: #57a459; 
+}
+
+/* bagian Serly*/
+.komunitas2 .nama 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transform: translate(430px, 5px);
+}
+
+.komunitas2 .tanggal 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(120px, 7px);
+}
+
+.komunitas2 .komentar 
+{
+  width: max-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(-280px, 55px);
+}
+
+.tombol2
+{
+    display: flex;
+    transform: translate(275px, 0px);
+}
+
+.like2, .balas-tombol2
+{
+  flex: 1;
+}
+
+.kotak2
+{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    appearance: none;
+    display: none; /* Menyembunyikan checkbox */
+}
+
+.kotak2:checked + label .like-dalam2
+{
+    color: #e7306a;
+}
+  
+label 
+{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.teks 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+/* bagian Irby*/
+.komunitas3 .nama 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transform: translate(300px, 5px);
+}
+
+.komunitas3 .tanggal 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(0px, 7px);
+}
+
+.komunitas3 .komentar 
+{
+  width: max-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(-420px, 55px);
+}
+
+.foto-irby
+{
+    transform: translate(677px, 0px);
+}
+
+.tombol3
+{
+    display: flex;
+    transform: translate(145px, 0px);
+}
+
+.like3, .balas-tombol3
+{
+  flex: 1;
+}
+
+.kotak3
+{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    appearance: none;
+    display: none; /* Menyembunyikan checkbox */
+}
+
+.kotak3:checked + label .like-dalam3
+{
+    color: #e7306a;
+}
+  
+label 
+{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.teks 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*bagian Nugraha*/
+.komunitas4 .nama 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transform: translate(300px, 5px);
+}
+
+.komunitas4 .tanggal 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(50px, 7px);
+}
+
+.komunitas4 .komentar 
+{
+  width: max-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(-400px, 55px);
+}
+
+.foto-nugraha
+{
+    transform: translate(677px, 0px);
+}
+
+.tombol4
+{
+    display: flex;
+    transform: translate(145px, 0px);
+}
+
+.like4, .balas-tombol4
+{
+  flex: 1;
+}
+
+.kotak4
+{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    appearance: none;
+    display: none; 
+}
+
+.kotak4:checked + label .like-dalam4
+{
+    color: #e7306a;
+}
+  
+label 
+{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.teks 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*Bagian Muflih*/
+.komunitas5 .nama 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transform: translate(320px, 5px);
+}
+
+.komunitas5 .tanggal 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(40px, 7px);
+}
+
+.komunitas5 .komentar 
+{
+  width: max-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(-400px, 55px);
+}
+
+.tombol5
+{
+    display: flex;
+    transform: translate(145px, 0px);
+}
+
+.like5, .balas-tombol5
+{
+  flex: 1;
+}
+
+.kotak5
+{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    appearance: none;
+    display: none;
+}
+
+.kotak5:checked + label .like-dalam5
+{
+    color: #e7306a;
+}
+  
+label 
+{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.teks 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*bagian Anan*/
+.komunitas6 .nama 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transform: translate(440px, 5px);
+}
+
+.komunitas6 .tanggal 
+{
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(160px, 7px);
+}
+
+.komunitas6 .komentar 
+{
+  width: max-content;
+  height: fit-content;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  transform: translate(-280px, 55px);
+}
+
+.tombol6
+{
+    display: flex;
+    transform: translate(275px, 0px);
+}
+
+.like6, .balas-tombol6
+{
+  flex: 1;
+}
+
+.kotak6
+{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    appearance: none;
+    display: none; 
+}
+
+.kotak6:checked + label .like-dalam6
+{
+    color: #e7306a;
+}
+  
+label 
+{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.teks 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+
+
+

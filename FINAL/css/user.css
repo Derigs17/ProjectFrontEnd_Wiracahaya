@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 150vh;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background: rgb(255, 255, 255);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000000;
+  padding: 12px 2px;
+  margin: 0 20px;
+  font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  border-bottom: 3px solid #0a8146;
+  color: #0a8146;
+  transition: 100ms;
+}
+
+#home {
+  width: 100%;
+  height: 150vh;
+  position: relative;
+}
+
+.home p {
+  line-height: 0.1px;
+  margin: 56px 0px 15px;
+}
+
+.home p:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-size: 30px;
+}
+
+.home p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #1a1a1a;
+  letter-spacing: none;
+  font-size: 30px;
+}
+
+.home p:nth-child(3) {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+.home {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  transform: translate(12%, 42%);
+}
+
+.picture {
+  width: 800px;
+  height: auto;
+  position: absolute;
+  left: 80%;
+  right: 20%;
+  transform: translate(-70%, 15%);
+}
+
+.button {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  transform: translate(12%, 750%);
+}
+
+button {
+  background-color: #0a8146;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+button:hover {
+  color: #000000;
+}
+
+footer {
+  background-color: #0a8146;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 20px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: #0b573b;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: #0a8146;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  background-color: none;
+  transition: 0.5s;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footerNav p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.footerNav ul li {
+  color: white;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footerBottom {
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+}
+
+.footerBottom p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #4a5568;
+  justify-content: center;
+}
+
+/*sidebar*/
+.sidebar {
+  position: absolute;
+  background-color: #0b8a48;
+  height: 350px;
+  width: 320px;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.3));
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-top: 35px;
+  margin-left: 56px;
+}
+
+/* Tambahkan efek hover untuk tautan sidebar */
+
+.profile {
+  background-color: #0b8a48;
+  height: 58px;
+  width: 320px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-top-right-radius: 30px;
+}
+.profile img {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-bottom: 4px;
+}
+.profile p {
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: "calibri";
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+
+.sidebar a,
+p {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "calibri";
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0px 20px 0px 20px;
+  color: white;
+  height: 35px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-left: 31px;
+  font-weight: 700;
+  width: 268px;
+}
+
+.option {
+  margin-top: 30px;
+  position: fixed;
+}
+
+.aktif {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 300px;
+  border-radius: 0px 20px 0px 20px;
+}
+
+.aktif p {
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-top: 4px;
+  font-weight: 700;
+}
+/*sidebar selesai*/
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column .judul {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+
+.column h2 
+{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.column .box1 .nama-pengguna{
+  width: 210px;
+  height: 32px;
+  background-color: white;
+  border: 3px solid green;
+  border-radius: 10px; 
+  text-align: center;
+}
+
+.column .box2 .alamat-email{
+  width: 210px;
+  height: 32px;
+  background-color: white;
+  border: 3px solid green;
+  border-radius: 10px; 
+  text-align: center;
+}
+
+.box1 {
+  display: flex;
+  align-items: center; 
+}
+
+.nama-pengguna {
+  margin-right: 10px; 
+}
+
+.tombol-ubah-profil button {
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s ease; 
+  border-radius: 10px;
+}
+
+.tombol-ubah-profil button:hover {
+  background-color: #45a049; 
+}
+
+.box2 {
+  display: flex;
+  align-items: center; 
+}
+
+.alamat-email {
+  margin-right: 10px; 
+}
+
+.tombol-ubah-email button {
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s ease; 
+  border-radius: 10px;
+}
+
+.tombol-ubah-email button:hover {
+  background-color: #45a049; 
+}
+
+.baris-tombol {
+  display: flex;
+}
+
+.tombol-ubah-password,
+.tombol-hapus-akun {
+  margin-right: 10px; 
+}
+
+.tombol-ubah-password button {
+  background-color: white;
+  color: #57a459; 
+  border: 2px solid #57a459; 
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.tombol-ubah-password button:hover {
+  background-color: #57a459; 
+  color: white; 
+}
+
+.tombol-hapus-akun button {
+  background-color: white;
+  color: #FF0000; 
+  border: 2px solid #FF0000; 
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.tombol-hapus-akun button:hover {
+  background-color: #FF0000;
+  color: white; 
+}
+
+.dashboard {
+  color: #ffffff;
+}

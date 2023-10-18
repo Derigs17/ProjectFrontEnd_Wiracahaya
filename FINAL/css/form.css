@@ -1,0 +1,210 @@
+/*positioning for the form elements */
+form {
+  position: relative;
+  margin-top: 45px; 
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Style inputs */
+input[type="text"],
+select {
+  width: 896px; 
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff; 
+}
+
+
+#catatan {
+  width: 896px;
+  height: 100px; 
+  padding: 12px 10px;
+  margin: 8px 0px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-weight: normal; 
+}
+
+
+/* Style the submit button */
+input[type="submit"] {
+  width: 20%;
+  background-color: #0B8A48;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Custom positioning for the form elements */
+form {  
+  position: relative;
+}
+
+label,
+input[type="text"],
+select {
+  position: relative;
+  left: 530px; 
+}
+
+/*Positioning the submit button at the bottom */
+input[type="submit"] {
+  position: absolute;
+  bottom: 50;
+  left: 900px;
+  transform: translate(-80px, 0px); 
+}
+
+/* Style judul form */
+h1.text-xl-start {
+  font-size: 40px; 
+  margin-bottom: 5px; 
+  position: relative;
+  left: 530px; 
+}
+h6.text-xl-start.mb-5 {
+  font-size: 14px;
+  display: block;
+  font-weight: 500; 
+  margin-bottom: 5px; 
+  width: 800px;
+}
+
+/* Style deskripsi form */
+h6.text-xl-start.mb-5 {
+  font-size: 20px; 
+  margin-bottom: 30px; 
+  position: relative;
+  left: 530px; 
+}
+.semi-bold {
+  font-weight: 600; 
+}
+
+.lokasi-container {
+  display:flex;
+  flex-direction:initial;
+  align-items:normal;
+  margin-top: 10px;
+  transform: translate(-5px, 0px);
+}
+
+.lokasi-container img {
+  margin-top: 5px; 
+}
+
+footer
+{
+    background-color: #0A8146;
+    margin-top: 250px;
+}
+
+.footerContainer
+{
+    width: 100%;
+    padding: 20px 30px 20px;
+}
+
+.socialIcons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i
+{
+    font-size: 2em;
+    color: #0B573B;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover
+{
+    background-color: #0A8146;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i
+{
+    background-color: none;
+    transition: 0.5s;
+}
+
+.footerNav ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav p
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+}
+
+.footerNav ul li
+{
+    color: white;
+    margin: 15px;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footerBottom
+{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footerBottom p
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    color: #4A5568;
+}

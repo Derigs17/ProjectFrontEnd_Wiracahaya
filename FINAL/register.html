@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="/favicon.ico" />
+  <title>Register</title>
+  <link rel="stylesheet" href="css/kontak-kami.css" />
+  <link rel="stylesheet" href="css/bg.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="js/register.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- Navbar -->
+<body>
+  <section id="home">
+    <div class="navbar">
+      <nav>
+        <a href="home.html" class="logo"><img src="assets/logo.svg" alt="logo"></a>
+        <ul class="navigation">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="tentangkami.html">Tentang Kami</a></li>
+          <li><a href="kontakkami.html">Kontak Kami</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="login.html">Komunitas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <!-- form register -->
+  <main>
+    <section class="login-form" style="margin-left: -46px;">
+      <form action="/kirim-pesan" method="POST">
+        <div class="box-register" >
+          <h1>Buat Akun</h1>
+          <input type="text" id="kirim-ke" name="kirim-ke" required placeholder="email" />
+          <input type="text" placeholder="Nama pengguna">
+          <div class="Konfirmasi-pw">
+            <input type="password" placeholder="Kata sandi" style="margin-right: 30px;">
+            <input type="password" placeholder="Konfirmasi">
+          </div>
+          <div class="btn-masuk">
+            <a href="">Buat akun</a>
+          </div>
+          <hr>
+          <div class="buat-akun">
+            <p>sudah punya akun?</p>
+            <a href="login.html">Masuk</a>
+          </div>
+        </div>
+      </form>
+      <div class="img-login">
+        <img src="assets/register1.png" >
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footerContainer">
+        <div class="footerNav">
+            <p>SISTEM INFORMASI PENGELOLAAN SAMPAH</p>
+            <ul>
+                <li>No telp : 092876363778</li>
+                <li>Email : email123@gmail.com</li>
+            </ul>
+        </div>
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram "></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="footerBottom">
+        <p>&copy;2023 Copyright by WIRACAHAYA. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

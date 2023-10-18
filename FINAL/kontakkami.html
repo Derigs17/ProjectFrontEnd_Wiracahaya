@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="css/kontak-kami.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="home">
+      <div class="navbar">
+          <nav>
+              <a href="home.html" class="logo"><img src="assets/logo.svg" alt="logo"></a>
+              <ul class="navigation">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="tentangkami.html">Tentang Kami</a></li>
+                  <li><a href="kontakkami.html" class="menu-aktif" style="color: #0A8146;">Kontak Kami</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="login.html">Komunitas</a></li>
+              </ul>
+          </nav>
+      </div>    
+  </section>
+
+  <!-- Form kontak -->
+    <main>
+      <section class="kontak-form">
+        <p>Kami Senang Membantu & Menerima</p>
+        <p>Pesan dari Anda</p>
+        <form action="/kirim-pesan" method="POST">
+        <div class="box">
+          <div class="form-group">
+            <label for="nama-lengkap">Kirim Ke</label>
+            <input type="text" id="kirim-ke" name="kirim-ke" required placeholder="Layanan"/>
+          </div>
+          <div class="form-group">
+            <label for="nama-lengkap">Nama Lengkap</label>
+            <input type="text" id="nama-lengkap" name="nama-lengkap" required />
+          </div>
+          <div class="form-group">
+            <label for="no-tlpn">No. Telepon</label>
+            <input type="tel" id="no-tlpn" name="no-tlpn" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <input type="pesan" id="email" name="pesan" required />
+          </div>
+          </div>
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+      <section class="kontak-info">
+        <div class="layanan-kami">
+          <h3>Layanan Kami</h3>
+          <p>
+            <img src="assets/🦆 icon _phone call_.png" alt="Telepon" />
+            +628976363778
+          </p>
+          <p>
+            <img src="assets/🦆 icon _envelope_.png" alt="Email" />
+            kantongsampah@gmail.com
+          </p>
+        </div>
+        <div class="partner-kami">
+          <h3>Partner Kami</h3>
+          <p>
+            <img src="assets/🦆 icon _phone call_.png" alt="Telepon" />
+            +62898768008
+          </p>
+          <p>
+            <img src="assets/🦆 icon _envelope_.png" alt="Email" />
+            partnerkami@gmail.com
+          </p>
+        </div>
+        <div class="mitra-kami">
+          <h3>Mitra Kami</h3>
+          <p>
+            <img src="assets/🦆 icon _phone call_.png" alt="Telepon" />
+            +62898976654
+          </p>
+          <p>
+            <img src="assets/🦆 icon _envelope_.png" alt="Email" />
+            mitraks@gmail.com
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footerContainer">
+          <div class="footerNav">
+              <p>SISTEM INFORMASI PENGELOLAAN SAMPAH</p>
+              <ul>
+                  <li>No telp : 092876363778</li>
+                  <li>Email : email123@gmail.com</li>
+              </ul>
+          </div>
+
+          <div class="socialIcons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram "></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+         
+          
+      </div>
+      <div class="footerBottom">
+          <p>&copy;2023 Copyright by WIRACAHAYA. All rights reserved.</p>
+      </div>
+  </footer>
+  </body>
+</html>

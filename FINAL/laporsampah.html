@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lapor Sampah</title>
+  <link rel="stylesheet" href="css/kontak-kami.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="js/laporsampah.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <!-- Navbar -->
+  <section id="home">
+    <div class="navbar">
+        <nav>
+            <a href="home.html" class="logo"><img src="assets/logo.svg" alt="logo"></a>
+            <ul class="navigation">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tentangkami.html">Tentang Kami</a></li>
+                <li><a href="kontakkami.html">Kontak Kami</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="komunitas.html">Komunitas</a></li>
+            </ul>
+        </nav>
+    </div>    
+</section>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="profile">
+      <img src="assets/sadam.jpg" alt="">
+      <p>Sadam abdul malik</p>
+  </div>
+  <a href="dashboard.html">Dashboard</a>
+  <a href="jualsampah.html">Jual Sampah</a>
+  <div class="aktif">
+    <p>• Lapor Sampah</p>
+  </div>
+  <a href="komunitas.html">Komunitas</a>
+  <div class="option">
+      <a href="#">Keluar</a>
+  </div>
+</div>
+
+<!-- form laporsampah -->
+<form action="kantongsampah">
+  <h1 class="text-xl-start semi-bold">Form Pengaduan</h1>
+  <h6 class="text-xl-start mb-5 ">Laporkan penumpukan sampah atau tempat pembuangan sampah ilegal.</h6>
+  <label for="fname" class="semi-bold">Nama Lengkap :</label>
+  <input type="text" id="fname" name="firstname">
+  <label for="alamat" class="semi-bold">Alamat :</label>
+  <input type="text" id="alamat" name="alamat">
+  <label for="telp" class="semi-bold">No.Telpn :</label>
+  <input type="text" id="telp" name="telp">
+  <label for="catatan" class="semi-bold">Catatan</label>
+  <input type="text" id="catatan" name="catatan" class="semi-bold">
+  <label for="lokasi" class="semi-bold">Tambahkan titik lokasi:</label>
+  <label class="lokasi-container">
+  <input type="image" id="lokasi" name="lokasi" class="semi-bold" src="assets/Basemap image.png" alt="Tambahkan titik lokasi">
+  </label>
+  <input type="submit" class="semi-bold5" value="Laporkan">
+  </form>
+  
+  <!-- FOOTER -->
+<footer>
+  <div class="footerContainer">
+      <div class="footerNav">
+          <p>SISTEM INFORMASI PENGELOLAAN SAMPAH</p>
+          <ul>
+              <li>No telp : 092876363778</li>
+              <li>Email : email123@gmail.com</li>
+          </ul>
+      </div>
+      <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram "></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>   
+  </div>
+  <div class="footerBottom">
+      <p>&copy;2023 Copyright by WIRACAHAYA. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
